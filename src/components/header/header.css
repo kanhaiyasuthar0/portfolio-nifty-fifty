@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    /* background: cyan; */
+    flex: 1;
+    position: relative;
+    justify-content: space-between;
+    padding: 1vw;
+    align-items: center;
+}
+
+.menu{
+    /* flex: 1; */
+    /* border: 1px solid red; */
+    /* background: white; */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.menu-icon{
+    font-size: 2rem;
+}
+
+.mobile-menu{
+    display: none;
+}
+.web-menu{
+    display: flex;
+}
+.overreact{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.overcoded{
+    font-size: 24px;
+    color: blue;
+}
+
+@media screen and (max-width:720px) {
+
+.mobile-menu{
+    display: flex;
+}
+.web-menu{
+    display: none;
+}
+
+}
+

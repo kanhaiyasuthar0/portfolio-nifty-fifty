@@ -1,0 +1,39 @@
+.about{
+    padding-bottom: 48px;
+
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-pic{
+    height: 420px;
+
+}
+.about-info{
+    font-size: 24px;
+}
+.about-info span{
+    color: blue;
+    font-size: 32px;
+}
+@media only screen and (max-width:720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-pic{
+        height: 280px;
+    }
+    .about-info{
+        font-size: 20px;
+
+    }
+    .about-info span{
+            font-size: 26px;
+    }
+}

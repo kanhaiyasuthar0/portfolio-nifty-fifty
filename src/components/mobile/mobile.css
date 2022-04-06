@@ -1,0 +1,38 @@
+.mobile{
+    background-color: white;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    right: 0;
+    top: -6px;
+    /* background-color: blue; */
+    padding: 0.8rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.close-icon{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+.mobile-options{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile-option{
+    font-size: 24px;
+    margin: 12px 0px;
+    display: flex;
+
+}
+.mobile-option a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
